@@ -1,0 +1,158 @@
+﻿<views:MvxWpfView x:Class="TycoonFactory.UI.Views.MainView"
+                  xmlns:views="clr-namespace:MvvmCross.Platforms.Wpf.Views;assembly=MvvmCross.Platforms.Wpf"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                  xmlns:entities="clr-namespace:TycoonFactory.DAL.Entities;assembly=TycoonFactory.DAL"
+                  xmlns:uiModels="clr-namespace:TycoonFactory.ViewModels.UiModels;assembly=TycoonFactory.ViewModels"
+                  xmlns:local="clr-namespace:TycoonFactory.UI.Views"
+                  mc:Ignorable="d">
+    <views:MvxWpfView.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="12 8" />
+        </Style>
+    </views:MvxWpfView.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0"
+                BorderBrush="Gray"
+                BorderThickness="0 1  0 0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Button Content="Add android"
+                        Grid.Row="0"
+                        VerticalAlignment="Center"
+                        Command="{Binding AddAndroidCommand}" />
+
+                <ListView
+                    Grid.Row="1"
+                    ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                    ItemsSource="{Binding Androids}"
+                    HorizontalContentAlignment="Stretch"
+                    VerticalContentAlignment="Center">
+                    <ListView.ItemTemplate>
+                        <DataTemplate DataType="{x:Type entities:Android}">
+                            <Border Padding="5"
+                                    HorizontalAlignment="Stretch">
+                                <Grid HorizontalAlignment="Stretch">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock
+                                        Grid.Column="0"
+                                        Text="{Binding Name}" />
+                                    <Button
+                                        Grid.Column="1"
+                                        HorizontalAlignment="Right"
+                                        FontFamily="Segoe MDL2 Assets"
+                                        Content="&#xE74D;"
+                                        Command="{Binding RelativeSource={RelativeSource FindAncestor, 
+                                AncestorType={x:Type ListView}}, Path= DataContext.RemoveAndroidCommand}"
+                                        CommandParameter="{Binding .}" />
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <StackPanel Grid.Row="2"
+                            Orientation="Vertical">
+                    <TextBlock Text="Top androids:"
+                               FontSize="24" />
+                    <ListView
+                        ItemsSource="{Binding TopAndroids}"
+                        MinHeight="80">
+                        <ListView.ItemTemplate>
+                            <DataTemplate DataType="{x:Type entities:Android}">
+                                <StackPanel
+                                    Orientation="Vertical">
+                                    <TextBlock Text="{Binding Name}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <Grid
+            Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0"
+                        Orientation="Vertical">
+
+                <Button Content="Add activity"
+                        VerticalAlignment="Center"
+                        Command="{Binding AddActivityCommand}" />
+            </StackPanel>
+
+            <ListView
+                Grid.Row="1"
+                ItemsSource="{Binding Activities}"
+                HorizontalContentAlignment="Stretch">
+                <ListView.ItemTemplate>
+                    <DataTemplate DataType="{x:Type uiModels:ActivityUiModel}">
+                        <Border Padding="5"
+                                HorizontalAlignment="Stretch">
+                            <Grid HorizontalAlignment="Stretch">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.Resources>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="FontSize" Value="16" />
+                                    </Style>
+                                </Grid.Resources>
+                                <StackPanel
+                                    Grid.Column="0"
+                                    Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Id}" />
+                                    <TextBlock Text="-" />
+                                    <TextBlock Text="{Binding Type}" />
+                                </StackPanel>
+                                <TextBlock
+                                    Grid.Column="1"
+                                    Text="{Binding RemainingTime, Mode=OneWay}" 
+                                    Margin="0 0 10 0"/>
+                                <Button
+                                    Grid.Column="2"
+                                    FontFamily="Segoe MDL2 Assets"
+                                    Content="&#xE70F;"
+                                    Command="{Binding RelativeSource={RelativeSource FindAncestor, 
+                                AncestorType={x:Type ListView}}, Path= DataContext.EditActivityCommand}"
+                                    CommandParameter="{Binding .}" />
+                                <Button
+                                    Grid.Column="3"
+                                    FontFamily="Segoe MDL2 Assets"
+                                    Content="&#xE711;"
+                                    Command="{Binding RelativeSource={RelativeSource FindAncestor, 
+                                AncestorType={x:Type ListView}}, Path= DataContext.CancelActivityCommand}"
+                                    CommandParameter="{Binding .}" />
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </Grid>
+    </Grid>
+</views:MvxWpfView>

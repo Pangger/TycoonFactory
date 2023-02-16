@@ -1,0 +1,12 @@
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\bin\Debug\net7.0\TycoonFactory.DAL.deps.json
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\bin\Debug\net7.0\TycoonFactory.DAL.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\bin\Debug\net7.0\TycoonFactory.DAL.pdb
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\obj\Debug\net7.0\TycoonFactory.DAL.csproj.AssemblyReference.cache
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\obj\Debug\net7.0\TycoonFactory.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\obj\Debug\net7.0\TycoonFactory.DAL.AssemblyInfoInputs.cache
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\obj\Debug\net7.0\TycoonFactory.DAL.AssemblyInfo.cs
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\obj\Debug\net7.0\TycoonFactory.DAL.csproj.CoreCompileInputs.cache
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\obj\Debug\net7.0\TycoonFactory.DAL.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\obj\Debug\net7.0\refint\TycoonFactory.DAL.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\obj\Debug\net7.0\TycoonFactory.DAL.pdb
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.DAL\obj\Debug\net7.0\ref\TycoonFactory.DAL.dll

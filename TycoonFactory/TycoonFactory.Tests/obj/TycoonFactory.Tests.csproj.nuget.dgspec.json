@@ -1,0 +1,315 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Tests\\TycoonFactory.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Core\\TycoonFactory.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Core\\TycoonFactory.Core.csproj",
+        "projectName": "TycoonFactory.Core",
+        "projectPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Core\\TycoonFactory.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/comcash/_packaging/comcash/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.DAL\\TycoonFactory.DAL.csproj": {
+                "projectPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.DAL\\TycoonFactory.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.DAL\\TycoonFactory.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.DAL\\TycoonFactory.DAL.csproj",
+        "projectName": "TycoonFactory.DAL",
+        "projectPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.DAL\\TycoonFactory.DAL.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/comcash/_packaging/comcash/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Tests\\TycoonFactory.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Tests\\TycoonFactory.Tests.csproj",
+        "projectName": "TycoonFactory.Tests",
+        "projectPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Tests\\TycoonFactory.Tests.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/comcash/_packaging/comcash/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Core\\TycoonFactory.Core.csproj": {
+                "projectPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Core\\TycoonFactory.Core.csproj"
+              },
+              "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.DAL\\TycoonFactory.DAL.csproj": {
+                "projectPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.DAL\\TycoonFactory.DAL.csproj"
+              },
+              "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.ViewModels\\TycoonFactory.ViewModels.csproj": {
+                "projectPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.ViewModels\\TycoonFactory.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.ViewModels\\TycoonFactory.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.ViewModels\\TycoonFactory.ViewModels.csproj",
+        "projectName": "TycoonFactory.ViewModels",
+        "projectPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.ViewModels\\TycoonFactory.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/comcash/_packaging/comcash/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Core\\TycoonFactory.Core.csproj": {
+                "projectPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.Core\\TycoonFactory.Core.csproj"
+              },
+              "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.DAL\\TycoonFactory.DAL.csproj": {
+                "projectPath": "C:\\Projects\\TycoonFactory\\rocs-challenge-Maksym-Laktionov\\TycoonFactory\\TycoonFactory.DAL\\TycoonFactory.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "MvvmCross.Plugin.Messenger": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

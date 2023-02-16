@@ -1,0 +1,17 @@
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\bin\Debug\net7.0\TycoonFactory.ViewModels.deps.json
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\bin\Debug\net7.0\TycoonFactory.ViewModels.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\bin\Debug\net7.0\TycoonFactory.ViewModels.pdb
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\bin\Debug\net7.0\TycoonFactory.Core.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\bin\Debug\net7.0\TycoonFactory.DAL.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\bin\Debug\net7.0\TycoonFactory.Core.pdb
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\bin\Debug\net7.0\TycoonFactory.DAL.pdb
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\obj\Debug\net7.0\TycoonFactory.ViewModels.csproj.AssemblyReference.cache
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\obj\Debug\net7.0\TycoonFactory.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\obj\Debug\net7.0\TycoonFactory.ViewModels.AssemblyInfoInputs.cache
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\obj\Debug\net7.0\TycoonFactory.ViewModels.AssemblyInfo.cs
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\obj\Debug\net7.0\TycoonFactory.ViewModels.csproj.CoreCompileInputs.cache
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\obj\Debug\net7.0\TycoonFactory.ViewModels.csproj.CopyComplete
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\obj\Debug\net7.0\TycoonFactory.ViewModels.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\obj\Debug\net7.0\refint\TycoonFactory.ViewModels.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\obj\Debug\net7.0\TycoonFactory.ViewModels.pdb
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.ViewModels\obj\Debug\net7.0\ref\TycoonFactory.ViewModels.dll

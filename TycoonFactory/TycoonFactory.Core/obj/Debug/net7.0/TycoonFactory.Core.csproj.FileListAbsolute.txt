@@ -1,0 +1,15 @@
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\bin\Debug\net7.0\TycoonFactory.Core.deps.json
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\bin\Debug\net7.0\TycoonFactory.Core.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\bin\Debug\net7.0\TycoonFactory.Core.pdb
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\bin\Debug\net7.0\TycoonFactory.DAL.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\bin\Debug\net7.0\TycoonFactory.DAL.pdb
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\obj\Debug\net7.0\TycoonFactory.Core.csproj.AssemblyReference.cache
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\obj\Debug\net7.0\TycoonFactory.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\obj\Debug\net7.0\TycoonFactory.Core.AssemblyInfoInputs.cache
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\obj\Debug\net7.0\TycoonFactory.Core.AssemblyInfo.cs
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\obj\Debug\net7.0\TycoonFactory.Core.csproj.CoreCompileInputs.cache
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\obj\Debug\net7.0\TycoonFactory.Core.csproj.CopyComplete
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\obj\Debug\net7.0\TycoonFactory.Core.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\obj\Debug\net7.0\refint\TycoonFactory.Core.dll
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\obj\Debug\net7.0\TycoonFactory.Core.pdb
+C:\Projects\TycoonFactory\rocs-challenge-Maksym-Laktionov\TycoonFactory\TycoonFactory.Core\obj\Debug\net7.0\ref\TycoonFactory.Core.dll

@@ -1,0 +1,112 @@
+﻿<views:MvxWpfView x:Class="TycoonFactory.UI.Views.AddActivityView"
+                  xmlns:views="clr-namespace:MvvmCross.Platforms.Wpf.Views;assembly=MvvmCross.Platforms.Wpf"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                  xmlns:System="clr-namespace:System;assembly=mscorlib"
+                  xmlns:enums="clr-namespace:TycoonFactory.DAL.Entities.Enums;assembly=TycoonFactory.DAL"
+                  xmlns:uiModels="clr-namespace:TycoonFactory.ViewModels;assembly=TycoonFactory.ViewModels"
+                  xmlns:controls="clr-namespace:TycoonFactory.UI.Controls"
+                  xmlns:extensions="clr-namespace:TycoonFactory.UI.Extensions"
+                  mc:Ignorable="d"
+>
+
+    <views:MvxWpfView.Resources>
+        <ObjectDataProvider x:Key="dataFromEnum" MethodName="GetValues"
+                            ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="enums:ActivityType" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="12 8" />
+        </Style>
+        
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="0 10 0 5"/>
+        </Style>
+    </views:MvxWpfView.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Back"
+                Command="{Binding CloseCommand}"
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="2" />
+
+        <Border
+            Grid.Row="1"
+            Grid.Column="0"
+            Padding="10">
+            <StackPanel
+                Orientation="Vertical">
+                <TextBlock Text="Choose type of work:" />
+                <ComboBox ItemsSource="{Binding Source={StaticResource dataFromEnum}}"
+                          SelectedItem="{Binding Activity.Type}" 
+                          IsEnabled="{Binding IsCreateMode}"/>
+
+
+                <TextBlock Text="Select a start date" />
+                <DatePicker SelectedDate="{Binding StartDate}" />
+                
+                <controls:TimePicker Hours="{Binding StartTime.Hours, Mode=TwoWay}"
+                                     Minutes="{Binding StartTime.Minutes, Mode=TwoWay}"/>
+                
+                <TextBlock Text="Select an end date" />
+                <DatePicker SelectedDate="{Binding EndDate}" />
+                
+                <controls:TimePicker Hours="{Binding EndTime.Hours, Mode=TwoWay}"
+                                     Minutes="{Binding EndTime.Minutes, Mode=TwoWay}"/>
+            </StackPanel>
+        </Border>
+
+        <Border
+            Grid.Row="1"
+            Grid.Column="1"
+            Padding="10">
+            <StackPanel
+                Orientation="Vertical">
+
+                <TextBlock Text="Choose available androids" />
+                <ComboBox ItemsSource="{Binding AvailableAndroids, Mode=OneWay}"
+                          IsEnabled="{Binding IsCreateMode}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate DataType="{x:Type uiModels:ComboItemAndroid}">
+                            <CheckBox Content="{Binding Model.Name}" IsChecked="{Binding IsChecked, Mode=TwoWay}"
+                                      HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </StackPanel>
+        </Border>
+
+        <TextBlock
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Center"
+            FontSize="24"
+            Foreground="Red"
+            Text="{Binding ErrorMessage}"
+            Visibility="{Binding ErrorMessage, Converter={StaticResource EmptyToVisibilityConverter}}"/>
+        
+        <Button Content="Create"
+                Grid.Row="3"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Command="{Binding AddActivityCommand}" />
+
+    </Grid>
+</views:MvxWpfView>
